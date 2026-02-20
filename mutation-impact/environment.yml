@@ -1,0 +1,11 @@
+name: mutation-impact
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - biopython
+  - pandas
+  - numpy
+  - mafft
+  - dssp
+  - pip
