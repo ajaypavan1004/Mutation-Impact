@@ -3,7 +3,7 @@
 
 Mutation Impact is a command-line tool for analysing protein mutations in structural, evolutionary and physiochemical context.
 
-It generates:
+It:
 
 - Extracts residue-level structural context (secondary structure, solvent accessibility, burial)
 - Computes evolutionary conservation from homologous sequence alignment
