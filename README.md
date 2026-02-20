@@ -18,7 +18,7 @@ Designed for:
 
 ---
 
-## 🔬 What This Tool Does
+## What This Tool Does
 
 Given:
 
@@ -29,7 +29,7 @@ Given:
 
 The tool produces:
 
-### 1️⃣ Human-Readable Mutation Analysis  
+### 1️. Human-Readable Mutation Analysis  
 `final_mutation_analysis.csv`
 
 Includes:
@@ -44,7 +44,7 @@ Includes:
 
 ---
 
-### 2️⃣ ML-Ready Feature Matrix  
+### 2️. ML-Ready Feature Matrix  
 `mutation_feature_matrix.csv`
 
 Includes:
@@ -59,7 +59,7 @@ This file is suitable for training regression or classification models.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 mutation-impact/
@@ -85,7 +85,7 @@ mutation-impact/
 
 ---
 
-## 🚀 Installation (Conda)
+## Installation (Conda)
 
 Create environment:
 
@@ -105,7 +105,7 @@ Dependencies include:
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 python main.py \
@@ -127,7 +127,7 @@ example/results/
 
 ---
 
-## 🧠 Stability Risk Index
+## Stability Risk Index
 
 The stability risk index integrates:
 
@@ -138,11 +138,11 @@ The stability risk index integrates:
 
 It is a **baseline heuristic**, not a trained ΔΔG predictor.
 
-For rigorous thermodynamic predictions, dedicated energy-based tools or experimental measurements are recommended.
+For rigorous thermodynamic predictions, dedicated energy based tools or experimental measurements are recommended.
 
 ---
 
-## 🤖 Using for Machine Learning
+## Using for Machine Learning
 
 The file `mutation_feature_matrix.csv` can be used directly as input to ML models.
 
@@ -171,7 +171,7 @@ Feature extraction is deterministic and reproducible.
 
 ---
 
-## 🧪 Example Validation
+## Example Validation
 
 Validated on hotspot mutations in the TP53 DNA-binding domain.
 
@@ -179,6 +179,6 @@ Structural destabilizing mutations are identified as high structural risk, while
 
 ---
 
-## 📄 License
+## License
 
 MIT License
