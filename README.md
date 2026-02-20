@@ -1,20 +1,20 @@
 # Mutation Impact  
 **Structure & Conservation-Aware Mutation Feature Extraction**
 
-Mutation Impact is a command-line tool for analysing protein mutations in structural and evolutionary context.
+Mutation Impact is a command-line tool for analysing protein mutations in structural, evolutionary and physiochemical context.
 
 It generates:
 
-- Structure-derived features (secondary structure, solvent accessibility, burial)
-- Conservation metrics from multiple sequence alignment
-- Physicochemical mutation descriptors
-- A baseline structural stability risk index
-- An ML-ready mutation feature matrix
+- Extracts residue-level structural context (secondary structure, solvent accessibility, burial)
+- Computes evolutionary conservation from homologous sequence alignment
+- Quantifies physicochemical changes introduced by mutations
+- Generates an interpretable structural stability risk index (baseline heuristic)
+- Exports an ML-ready mutation feature matrix for downstream modeling
 
 Designed for:
 
 - Wet lab scientists who want quick structural insight into mutations  
-- Computational researchers who need structured mutation features for downstream modeling  
+- Computational researchers who need structured mutation features for machine learning workflows and downstream modeling  
 
 ---
 
