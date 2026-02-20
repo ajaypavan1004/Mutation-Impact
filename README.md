@@ -18,6 +18,40 @@ Designed for:
 
 ---
 
+## When to Use Mutation Impact
+
+Use this tool when you:
+
+- Have a set of protein mutations and want structured, reproducible analysis
+- Need residue-level structural context (burial, solvent exposure, secondary structure)
+- Want to integrate evolutionary conservation into mutation interpretation
+- Are preparing mutation datasets for downstream machine learning
+- Need rapid structural stability insight without running full energy-based simulations
+
+This tool is particularly useful for:
+
+- Wet lab variant analysis
+- Protein engineering studies
+- ΔΔG modeling workflows
+- Variant classification research
+- High-throughput mutation screening pipelines
+
+---
+
+## When Not to Use This Tool
+
+Mutation Impact is not:
+
+- A protein structure predictor
+- A physics-based ΔΔG calculator
+- A molecular dynamics simulation engine
+- A cancer pathogenicity classifier
+
+For structure prediction from sequence, use tools such as AlphaFold.
+
+Mutation Impact focuses on structured mutation feature extraction and interpretable stability risk estimation rather than full thermodynamic simulation.
+
+---
 ## What This Tool Does
 
 Given:
