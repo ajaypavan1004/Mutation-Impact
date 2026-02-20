@@ -176,7 +176,3 @@ Validated on hotspot mutations in the TP53 DNA-binding domain.
 Structural destabilizing mutations are identified as high structural risk, while DNA-contact mutations are differentiated appropriately.
 
 ---
-
-## License
-
-MIT License
