@@ -85,23 +85,21 @@ mutation-impact/
 
 ---
 
-## Installation (Conda)
+## Installation
 
-Create environment:
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/mutation-impact.git
+cd mutation-impact
+```
+
+Create the conda environment:
 
 ```bash
 conda env create -f environment.yml
 conda activate mutation-impact
 ```
-
-Dependencies include:
-
-- Python  
-- Biopython  
-- MAFFT  
-- DSSP (mkdssp)  
-- NumPy  
-- Pandas  
 
 ---
 
